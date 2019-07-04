@@ -1,0 +1,96 @@
+body {
+font-size: 0.5rem;
+font-family: 'Open Sans', sans-serif;
+}
+
+p{
+  font-size: 1rem;
+}
+
+a{
+  font-weight: bold;
+  color: #6DA46A;
+}
+
+a:visited{
+  font-weight: bold;
+}
+
+#main {
+    display:grid;
+    grid-template-rows: auto auto;
+    margin: 30px 8px;
+    padding: 15px;
+    border-radius: 5px;
+    background: whitesmoke;
+}
+
+#header {
+  display: grid;
+  grid-template-columns: auto auto;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#title {
+    font-size: 2rem;
+    color: #6DA46A;
+    margin: auto;
+}
+
+.social-media {
+  justify-self: end;
+  padding-right: 20px;
+  font-size: 1.2rem;
+}
+
+.facebook {
+  color: #4267b2;
+}
+
+.twitter {
+  color: #4AB3F4;
+}
+
+.github {
+  color: black;
+}
+
+#description {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#img-div {
+box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+display: grid;
+grid-template-columns: auto;
+grid-template-rows: auto auto;
+justify-items: center;
+align-items: center;
+background: #6DA46A;
+border-radius: 5px;
+max-width: 720px;
+margin-top: 20px;
+padding-top: 45px;
+}
+
+#image {
+  height: auto;
+  max-width: 100%;
+}
+
+#img-caption {
+ color: whitesmoke;
+ font-style: italic;
+ font-size: 1rem;
+ height: 45px;
+}
+
+#tribute-info {
+padding: 10px;
+text-align: justify;
+}
+
+#tribute-link {
+text-decoration: none;
+}
